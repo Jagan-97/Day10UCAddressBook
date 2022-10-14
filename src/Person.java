@@ -6,6 +6,19 @@ public class Person {
     private String Zip;
     private String Email;
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", Zip='" + Zip + '\'' +
+                ", Email='" + Email + '\'' +
+                ", mobileNumber=" + mobileNumber +
+                '}';
+    }
+
     public String getState() {
         return state;
     }
